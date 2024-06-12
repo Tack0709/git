@@ -7,6 +7,9 @@
  * symlink to a directory, we do not want to say it is a directory when
  * dealing with tracked content in the working tree.
  */
+
+
+//add coment abspath
 int is_directory(const char *path)
 {
 	struct stat st;
